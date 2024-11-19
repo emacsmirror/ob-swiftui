@@ -111,7 +111,8 @@
 
 (defvar org-babel-default-header-args:swiftui '((:results . "window")
                                                 (:view . "none")
-                                                (:file . nil))
+                                                (:file . nil)
+                                                (:exports . "results"))
   "Default ob-swiftui header args.
 Must be named `org-babel-default-header-args:swiftui' to integrate with `ob'.")
 
